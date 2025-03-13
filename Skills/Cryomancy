@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sName>Cryomancy</sName>
+  <primaryCategory>MOL</primaryCategory>
+  <categories>
+    <string>Alteration</string>
+    <string>Cryomancy</string>
+    <string>Domain</string>
+  </categories>
+  <isDomain>true</isDomain>
+  <desc>Sub-domain of alteration specializing in summoning and manipulation of ice, typically used for combat, or keeping yourself cool</desc>
+  <propertiesKeys />
+  <propertiesValues />
+  <obtainableThroughPractice>true</obtainableThroughPractice>
+  <startingLevel>0</startingLevel>
+  <special />
+</Skill>

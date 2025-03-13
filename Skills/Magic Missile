@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sName>Magic Missile</sName>
+  <primaryCategory>MOL</primaryCategory>
+  <categories>
+    <string>Attack</string>
+    <string>Conjuration</string>
+    <string>Spell</string>
+  </categories>
+  <isDomain>false</isDomain>
+  <desc>A basic damaging bolt of magical force.</desc>
+  <propertiesKeys>
+    <string>Mana Cost</string>
+    <string>Cast Time</string>
+    <string>Range</string>
+    <string>Damage (Blunt)</string>
+  </propertiesKeys>
+  <propertiesValues>
+    <string>{5:+:2:*:L1:+:0:*:T1}</string>
+    <string>{60:+:0:*:L1:+:-10:*:T1}</string>
+    <string>{60:+:10:*:L1:+:0:*:T1}</string>
+    <string>{10:+:5:*:L1:+:0:*:T1}</string>
+  </propertiesValues>
+  <obtainableThroughPractice>true</obtainableThroughPractice>
+  <startingLevel>0</startingLevel>
+  <special />
+</Skill>

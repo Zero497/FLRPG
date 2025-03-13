@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sName>Ice Shards</sName>
+  <primaryCategory>MOL</primaryCategory>
+  <categories>
+    <string>Alteration</string>
+    <string>Attack</string>
+    <string>Cryomancy</string>
+    <string>Spell</string>
+  </categories>
+  <isDomain>false</isDomain>
+  <desc>Basic cryomancy damage spell, the caster summons sharp tipped icicles which are fired at enemies.</desc>
+  <propertiesKeys>
+    <string>Mana Cost</string>
+    <string>Cast Time</string>
+    <string>Range</string>
+    <string>Damage (piercing)</string>
+    <string>Damage (cold)</string>
+  </propertiesKeys>
+  <propertiesValues>
+    <string>{2:+:0.75:*:L1:+:0:*:T1}</string>
+    <string>{70:+:0:*:L1:+:-10:*:T1}</string>
+    <string>{30:+:5:*:L1:+:0:*:T1}</string>
+    <string>{3:+:1.5:*:L1:+:0:*:T1}</string>
+    <string>{2:+:1:*:L1:+:0:*:T1}</string>
+  </propertiesValues>
+  <obtainableThroughPractice>true</obtainableThroughPractice>
+  <startingLevel>0</startingLevel>
+  <special>Create a max of {3:+:2:*:T1} icicles to fire. Mana cost applies per icicle.
+</special>
+</Skill>
